@@ -6,3 +6,5 @@ def contain_duplicates(arr):
     return False
 
 print(contain_duplicates([1,2,3,4]))
+
+#asd
