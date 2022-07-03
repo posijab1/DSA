@@ -7,7 +7,15 @@ def contain_duplicates(arr):
 
 print(contain_duplicates([1,2,3,4]))
 
-#asd
-#probando
 
-#asd
+
+def contain_duplicates2(arr):
+
+    aux1 = set()
+    for i in arr:
+        if i in aux1:
+            return True
+        aux1.add(i)
+    return False
+
+print(contain_duplicates2([1,2,3,4]))
