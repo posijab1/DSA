@@ -12,7 +12,9 @@ def ProductofArrayExceptSelf(array):
 
 print(ProductofArrayExceptSelf([1,2,3]))
 
-def ProductofArrayExceptSelf_BruteForece(array):
+#O(n)
+
+def ProductofArrayExceptSelf_BruteForce(array):
     answer = []
 
     for i in array:
@@ -22,6 +24,6 @@ def ProductofArrayExceptSelf_BruteForece(array):
         answer.append(int(auxiliary_answer/i))
     return answer
 
-print(ProductofArrayExceptSelf_BruteForece([1,2,3]))
+print(ProductofArrayExceptSelf_BruteForce([1,2,3]))
 
-
+#O(n2)
